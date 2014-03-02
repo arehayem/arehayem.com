@@ -92,5 +92,20 @@ a:hover {
 	margin: auto;
 	width: 800px;
 	background: mintcream;
-	padding: 25px;
+	padding: 35px;
+}
+
+.content #waldo {
+	margin-left: 1.5em;
+	display:block;
+	width: 200px;
+	float: right;
+}
+
+.content:after {
+	content:'.';
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;	
 }
