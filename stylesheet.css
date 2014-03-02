@@ -1,0 +1,96 @@
+* {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin: 0;
+}
+
+body {
+	font-size: 17px;
+	margin: 0;
+	background-color: mintcream;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+html {
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+span {
+	color: tomato;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: darkslategray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#bar {
+	margin: auto;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 2px solid black;
+}
+
+#bar a {
+	height: 50px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: mintcream;
+}
+
+#bar a:hover {
+	text-decoration: none;
+	color: tomato;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -2em;
+	background: darkslategray;
+}
+
+.footer, .push {
+	height: 2em;
+}
+
+.footer {
+	text-align: center;
+	font-size: 15px;
+	border-top: 2px solid black;
+	color: mintcream;
+}
+
+.content {
+	display: block;
+	margin: auto;
+	width: 800px;
+	background: mintcream;
+	padding: 25px;
+}
